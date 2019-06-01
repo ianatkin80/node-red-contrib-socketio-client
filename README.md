@@ -1,5 +1,6 @@
 # node-red-contrib-socketio-client
 ---
+Forked from isaacvitor/node-red-contrib-socketio-client to include emitter node in release
 
 ## Nodes
 
@@ -10,7 +11,8 @@
 ## How to use
 
 > Socket.IO Connector -> Socket.IO Listener -> Payload
+> Socket.IO Connector -> Socket.IO Listener -> Socket.IO Emitter
 
 ![How to use](https://raw.githubusercontent.com/isaacvitor/generalcontent/master/node-red-contrib-socketio-client/nodered_socketio_ex01.png "How to use")
 
-**Notice:** This module are in developing so, take care when to use in production.
+**Notice:** This module is in development - take care when using in production.
